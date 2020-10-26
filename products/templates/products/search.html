@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-sm-12 col-lg-6">
+      <p class="font-weight-bolder color-search">Resultados para <strong class="color-search-bold">{{ query }} ({{count}})</strong>:</p>
+    </div>
+    <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-10 col-xl-8 col-xxl-6 ml-auto">
+        <select class="form-select select" id="validationCustom04" required>
+          <option selected disabled value="">Ordenar por: destacados</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include 'products/snippets/product.html' %}
+  {% include 'products/snippets/pagination.html' %}
+  <div class="row mt-4 mb-4">
+    <div class="col-12">
+        <select class="form-select select2" id="validationCustom04" required>
+          <option selected disabled value="">Ver Información Legal</option>
+          <option>...</option>
+        </select>
+    </div>
+  </div>
+{% endblock %}

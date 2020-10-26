@@ -1,0 +1,42 @@
+{% url 'login' as login %}
+{% url 'register' as register %}
+{% load static %}
+<nav class="navbar navbar-light bg-light navbar-comunicado">
+  <div class="container-fluid">
+    <span class="text-white">
+      Servicio al cliente de Lider.cl: <a href="#" class="text-blue-white">600 400 9000</a> | Horario: de lunes a viernes de 8:00 a 22:00 y sábado, 
+      domingo y festivos de 9:00 a 22:00
+    </span>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark backgr-navbar">
+  <div class="container-fluid">
+    <a href="{% url 'index' %}" class="navbar-brand">
+      <img src="{% static 'images/lider-logo.svg'%}" alt="" width="152" height="35">
+    </a>
+    <button type="button" name="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navb">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navb" class="navbar-collapse collapse hide">
+      <ul class="navbar-nav my-2 my-lg-0 ml-auto">
+        <li class="nav-item">
+          <a href="#" class="btn btn-navy btn-lg btn-block" tabindex="-1" role="button"><i class="fas fa-bars"></i> Categorías</a>
+        </li>
+      </ul>
+      <form action="{% url 'search' %}" class="form-inline my-2 my-lg-0 ml-auto col-12 col-lg-5 col-xl-6 col-xxl-7">
+        <input class="form-control form-control-lg mr-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search" name="q">
+      </form>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="navbar-item inline-block">
+          <a href="#" class="btn btn-navy2 btn-lg btn-block" tabindex="-1" role="button">
+            <img src="{% static 'images/lider-cart.svg' %}" width="29" height="25"> 
+            <span class="badge badge-cart rounded-pill bg-primary">0</span> 
+          </a>
+        </li>
+        <li class="navbar-item mt-2 mt-lg-0 ml-0 ml-lg-3">
+          <a href="#" class="btn btn-yellow2 btn-lg btn-block" tabindex="-1" role="button"><img src="{% static 'images/super_cart.svg' %}" width="29" height="25"> Supermercado</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

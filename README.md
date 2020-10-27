@@ -1,5 +1,5 @@
 # Se desarrolla una prueba Full Stack Developer de Walmart.
-Proyecto de práctica desarrollado en Django
+Proyecto de práctica desarrollado en Django.
 ## Live Preview:
 - **https://proyecto-lider.herokuapp.com/**
 ## Herramientas usadas en el proyecto:

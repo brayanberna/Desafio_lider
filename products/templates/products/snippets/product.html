@@ -6,22 +6,25 @@
     <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-3 mb-4">
       <div class="card h-100 border-shadow">
         {% if product.image%}
-          <img src="https://{{ product.image }}" class="card-img-top p-4" alt="Imagen del producto" width="180px" height="380px">
+          <img src="https://{{ product.image }}" class="card-img-top p-4" alt="Imagen del producto" width="180px" height="320px">
         {% endif %}
         <div class="card-body">
-          <h5 class="card-title">
-            <p class="font-weight-bolder text-muted text-descript"><strong class="text-marca">{{ product.brand }}
-              </strong> {{ product.description }}
+          <h5 class="card-title pt-3">
+            <p class="font-weight-bolder text-muted text-descript">
+              <strong class="text-marca">
+                {{ product.brand }}
+              </strong> 
+              {{ product.description }}
             </p>
           </h5>
           {% if product.price_offer %}
           <p class="card-text inline-block">
             <h3><strong>{{product.price_offer | price_format }} </strong><span class="badge rounded-pill bg-danger line-initial">50%</span></h3>
-            <h4><del><strong class="text-descript">{{ product.price | price_format }}</strong></del></h4>
+            <h4><del><strong class="text-descript">{{ product.price | price_format }} </strong></del></h4>
           </p>
           {% else %}
           <p class="card-text inline-block">
-            <h3><strong>{{ product.price | price_format }} </strong></h3>
+            <h3><strong>{{ product.price | price_format }} TTTTTTTTTT</strong></h3>
           </p>
           {% endif %}
         </div>

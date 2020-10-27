@@ -7,4 +7,4 @@ Proyecto de práctica desarrollado en Django donde se exportan e importan datos 
 - **[Boostrap 5](https://v5.getbootstrap.com/)**  Framework web.
 - **[Font Awesome](https://fontawesome.com/icons?d=gallery)**  Framework de iconos vectoriales.
 
-![](https://repository-images.githubusercontent.com/299468489/579f0900-0b58-11eb-8f3a-aa1743c85244)
+![](https://repository-images.githubusercontent.com/307615736/2e4ad200-1814-11eb-8f6a-12ce6e64843b)

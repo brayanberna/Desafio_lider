@@ -1,5 +1,5 @@
-# Registro de atención diaria
-Proyecto de práctica desarrollado en Django donde se exportan e importan datos de archivos Excel a través de la librería OpenPyXL
+# Se desarrolla una prueba Full Stack Developer de Walmart.
+Proyecto de práctica desarrollado en Django
 ## Live Preview:
 - **https://proyecto-lider.herokuapp.com/**
 ## Herramientas usadas en el proyecto:
@@ -8,7 +8,7 @@ Proyecto de práctica desarrollado en Django donde se exportan e importan datos 
 - **[Font Awesome](https://fontawesome.com/icons?d=gallery)**  Framework de iconos vectoriales.
 
 ![](https://repository-images.githubusercontent.com/307615736/2e4ad200-1814-11eb-8f6a-12ce6e64843b)
-# Desafio
+# Desafío:
 ![Prueba1](https://user-images.githubusercontent.com/61950433/97279526-ddd67300-1819-11eb-8cad-497975174913.PNG)
 ![Prueba2](https://user-images.githubusercontent.com/61950433/97279584-f050ac80-1819-11eb-9907-91836c5b6cff.PNG)
 ![Prueba3](https://user-images.githubusercontent.com/61950433/97279614-f5adf700-1819-11eb-952b-496a289eb8cb.PNG)
